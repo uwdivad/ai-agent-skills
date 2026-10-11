@@ -1,0 +1,6 @@
+.skill-install-state.json
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
