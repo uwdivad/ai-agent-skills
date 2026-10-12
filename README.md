@@ -19,7 +19,7 @@ Skills are **read-only by default**. They prioritize verified findings and reque
 Requirements: Git, PowerShell 5.1+ and a current Claude Code and/or Codex installation. Python 3.9+ is only needed for validation. Windows Developer Mode (Settings > System > For developers) or administrator privilege is typically required to create symbolic links.
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/ai-agent-skills.git "$HOME\ai-agent-skills"
+git clone https://github.com/uwdivad/ai-agent-skills.git "$HOME\ai-agent-skills"
 cd "$HOME\ai-agent-skills"
 python scripts/validate.py
 .\scripts\install.ps1
@@ -43,7 +43,7 @@ Optional flags:
 Requirements: Git, Bash 3.2+ and a current Claude Code and/or Codex installation. Python 3.9+ is only needed for validation.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-agent-skills.git "$HOME/ai-agent-skills"
+git clone https://github.com/uwdivad/ai-agent-skills.git "$HOME/ai-agent-skills"
 cd "$HOME/ai-agent-skills"
 python3 scripts/validate.py
 chmod +x scripts/*.sh
